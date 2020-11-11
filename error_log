@@ -1,98 +1,44 @@
-[14-Oct-2020 20:39:37 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[14-Oct-2020 20:39:41 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[14-Oct-2020 20:39:43 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[14-Oct-2020 20:56:54 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[14-Oct-2020 20:57:52 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[18-Oct-2020 20:13:47 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[18-Oct-2020 20:15:08 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[18-Oct-2020 20:16:02 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_sections.php on line 25
-[18-Oct-2020 20:27:25 Asia/Riyadh] PHP Fatal error:  Call to undefined function load_sections() in /home/project1mytestpr/public_html/crs/sections.php on line 45
-[18-Oct-2020 20:27:50 Asia/Riyadh] PHP Fatal error:  Call to undefined function load_sections() in /home/project1mytestpr/public_html/crs/sections.php on line 45
-[18-Oct-2020 21:31:03 Asia/Riyadh] PHP Fatal error:  Call to undefined function DrowTable() in /home/project1mytestpr/public_html/crs/reservation.php on line 46
-[18-Oct-2020 21:33:48 Asia/Riyadh] PHP Warning:  require_once(inc/reservation.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/reservation.php on line 10
-[18-Oct-2020 21:33:48 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/reservation.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/reservation.php on line 10
-[18-Oct-2020 21:42:45 Asia/Riyadh] PHP Fatal error:  Call to undefined function GetReservationClass() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 61
-[18-Oct-2020 21:45:06 Asia/Riyadh] PHP Fatal error:  Class 'Resevation' not found in /home/project1mytestpr/public_html/crs/reservation.php on line 44
-[18-Oct-2020 21:59:27 Asia/Riyadh] PHP Fatal error:  Call to undefined function save_reservation() in /home/project1mytestpr/public_html/crs/reservation.php on line 23
-[18-Oct-2020 22:14:47 Asia/Riyadh] PHP Fatal error:  Class 'Resevation' not found in /home/project1mytestpr/public_html/crs/reservation.php on line 44
-[18-Oct-2020 22:15:02 Asia/Riyadh] PHP Fatal error:  Class 'Resevation' not found in /home/project1mytestpr/public_html/crs/reservation.php on line 44
-[18-Oct-2020 22:38:00 Asia/Riyadh] PHP Fatal error:  Class 'Resevation' not found in /home/project1mytestpr/public_html/crs/reservation.php on line 44
-[18-Oct-2020 22:38:01 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 133
-[18-Oct-2020 22:48:02 Asia/Riyadh] PHP Fatal error:  Class 'Resevation' not found in /home/project1mytestpr/public_html/crs/reservation.php on line 44
-[21-Oct-2020 20:45:12 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/reservation.php on line 81
-[21-Oct-2020 20:45:16 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/reservation.php on line 81
-[26-Oct-2020 22:28:09 Asia/Riyadh] PHP Fatal error:  Call to undefined function LoadMenu() in /home/project1mytestpr/public_html/crs/Style/header.php on line 72
-[26-Oct-2020 22:48:02 Asia/Riyadh] PHP Fatal error:  Call to undefined function load_building() in /home/project1mytestpr/public_html/crs/building.php on line 42
-[26-Oct-2020 22:48:03 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/project1mytestpr/public_html/crs/Tables/data_building.php on line 46
-[28-Oct-2020 19:47:23 Asia/Riyadh] PHP Fatal error:  Call to undefined function modalformsection() in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 76
-[28-Oct-2020 19:52:50 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 19:52:51 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 19:52:53 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 19:52:54 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 19:52:55 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 19:53:10 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 38
-[28-Oct-2020 20:53:01 Asia/Riyadh] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/project1mytestpr/public_html/crs/reservation.php on line 65
-[28-Oct-2020 21:01:28 Asia/Riyadh] PHP Fatal error:  Call to undefined function form_reservation() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 115
-[28-Oct-2020 21:02:11 Asia/Riyadh] PHP Fatal error:  Call to undefined function form_reservation() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 115
-[28-Oct-2020 21:02:19 Asia/Riyadh] PHP Fatal error:  Call to undefined function form_reservation() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 115
-[01-Nov-2020 19:42:02 Asia/Riyadh] PHP Warning:  require_once(../inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
-[01-Nov-2020 19:42:02 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required '../inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
-[02-Nov-2020 17:53:30 Asia/Riyadh] PHP Warning:  mysqli_query(): Couldn't fetch mysqli in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 62
-[02-Nov-2020 17:53:30 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 65
-[02-Nov-2020 17:53:30 Asia/Riyadh] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 76
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 10
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 10
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 11
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 29
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 18:24:39 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 60
-[02-Nov-2020 18:56:22 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 54
-[02-Nov-2020 19:19:57 Asia/Riyadh] PHP Fatal error:  Call to undefined function InputSelect() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 142
-[02-Nov-2020 19:19:58 Asia/Riyadh] PHP Fatal error:  Call to undefined function InputSelect() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 142
-[02-Nov-2020 19:19:59 Asia/Riyadh] PHP Fatal error:  Call to undefined function InputSelect() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 142
-[02-Nov-2020 19:20:45 Asia/Riyadh] PHP Fatal error:  Call to undefined function InputSelect() in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 142
-[02-Nov-2020 19:44:17 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 29
-[02-Nov-2020 19:44:25 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 29
-[02-Nov-2020 19:44:49 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:44:57 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:45:16 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:46:14 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:49:27 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:49:29 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:49:33 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:49:36 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:50:01 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:51:17 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:51:20 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:51:22 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:51:23 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:52:16 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:52:19 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:52:22 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:52:24 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:52:54 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:53:12 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:53:52 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[02-Nov-2020 19:53:55 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 10
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 11
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 28
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 30
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/project1mytestpr/public_html/crs/inc/InputSelect.php on line 3
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/InputSelect.php on line 4
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/InputSelect.php on line 7
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/project1mytestpr/public_html/crs/inc/InputSelect.php on line 11
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/inc/InputSelect.php on line 27
-[07-Nov-2020 22:05:03 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/inc/ClassResevation.php on line 76
-[07-Nov-2020 22:45:44 Asia/Riyadh] PHP Fatal error:  Call to a member function DrowTable() on null in /home/project1mytestpr/public_html/crs/reservation.php on line 77
-[07-Nov-2020 22:57:11 Asia/Riyadh] PHP Fatal error:  Call to a member function DrowTable() on null in /home/project1mytestpr/public_html/crs/reservation.php on line 77
-[07-Nov-2020 23:00:50 Asia/Riyadh] PHP Fatal error:  Call to a member function DrowTable() on null in /home/project1mytestpr/public_html/crs/reservation.php on line 77
-[07-Nov-2020 23:00:53 Asia/Riyadh] PHP Fatal error:  Call to a member function DrowTable() on null in /home/project1mytestpr/public_html/crs/reservation.php on line 77
-[09-Nov-2020 11:45:19 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or quoted-string and whitespace (T_ENCAPSED_AND_WHITESPACE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 44
-[09-Nov-2020 11:45:22 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 88
-[09-Nov-2020 11:45:24 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 88
-[09-Nov-2020 11:45:26 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 88
-[09-Nov-2020 11:45:28 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 131
-[09-Nov-2020 11:47:16 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/Tables/data_users.php on line 89
-[09-Nov-2020 11:56:10 Asia/Riyadh] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting '(' in /home/project1mytestpr/public_html/crs/Tables/data_classes.php on line 87
-[09-Nov-2020 12:06:21 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/Tables/data_classes.php on line 47
+[21-Oct-2020 21:40:42 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:40:42 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:40:45 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:40:45 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:41:27 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:41:27 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:42:07 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:42:07 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:42:40 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:42:40 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:43:16 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:43:16 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:43:31 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:43:31 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:44:16 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:44:16 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:44:46 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:44:46 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:45:30 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:45:30 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:45:34 Asia/Riyadh] PHP Warning:  require_once(inc/Config.php): failed to open stream: No such file or directory in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:45:34 Asia/Riyadh] PHP Fatal error:  require_once(): Failed opening required 'inc/Config.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 3
+[21-Oct-2020 21:46:00 Asia/Riyadh] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 18
+[01-Nov-2020 19:46:21 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:21 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:21 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 14
+[01-Nov-2020 19:46:21 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 16
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 14
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 16
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 14
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 16
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 14
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 16
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 13
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, boolean given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 14
+[01-Nov-2020 19:46:22 Asia/Riyadh] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/project1mytestpr/public_html/crs/GetData/GetSections.php on line 16
+[02-Nov-2020 20:45:55 Asia/Riyadh] PHP Parse error:  syntax error, unexpected end of file in /home/project1mytestpr/public_html/crs/GetData/ModalNewReservation.php on line 141
