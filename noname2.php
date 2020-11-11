@@ -42,16 +42,17 @@ define("_config_db_name","crs");
 
 
 
+
 // Check if page is $_GET Parameters for
 // Normal load tables
 // Or form for add new row;
 // or save $_post Data
 
 
-$switch=$_GET['switch'];
+$fun=$_GET['switch'];
 
 
-switch ($switch) {
+switch ($fun) {
 
 
     case "new_building";
@@ -69,19 +70,10 @@ switch ($switch) {
         break;
 
 
-
-    case "delete_building";
-        delete_building();
-        break;
-
-
     default;
         load_building();
         break;
 }
-
-
-
 
 
 
@@ -121,9 +113,7 @@ function load_building(){
 
 
     }
-    echo "</table>";
     mysqli_close($conn);
-    echo "<a href=\"building.php?switch=new_building\">اضافة جديد</a>";
 }
 
 
@@ -192,11 +182,13 @@ function form_building($RecordID=0){
     echo "              <input  type=\"hidden\" name=\"RecordID\" value =\"$RecordID\" >\n";
     echo "           <hr>\n";
     echo "                  <input  type=\"submit\" name=\"_save\" value =\"Save\" >\n";
-    echo "         <a href=\"building.php?switch=delete_building&RecordID=$RecordID\">Delete</a>\n";
     echo "      </form>\n";
 
 
 }
+
+
+
 
 function save_building(){
 
@@ -220,7 +212,7 @@ function save_building(){
     if ($RecordID == 0) {
         $sql= "INSERT INTO building  (building_id,building_name) Values ('".$building_id."','".$building_name."')";
         $result = mysqli_query($conn, $sql);
-
+        return;
 
     }
 
@@ -233,36 +225,6 @@ function save_building(){
 
     header("Location: building.php");
 }
-
-function delete_building(){
-
-
-
-
-    $conn = mysqli_connect(_config_db_host, _config_db_user, _config_db_pass,_config_db_name);
-    if(! $conn ) {
-        die('Could not connect: ' . mysqli_error());
-    }
-
-    $RecordID=intval($_REQUEST["RecordID"]);
-
-
-
-
-    if ($RecordID > 0) {
-        $sql= "DELETE FROM building WHERE building_id=$RecordID";
-        $result = mysqli_query($conn, $sql);
-
-
-    }
-
-
-
-
-
-    header("Location: building.php");
-}
-
 
 
 ?>
